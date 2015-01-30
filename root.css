@@ -73,7 +73,7 @@ body, html {
 
 .projectContainer {
 width: 100%;
-margin: 3em 0;
+padding: 2em 0;
 xheight: 2em;
 height: 10em;
 	background-color: rgba(255,255,255,0.95);
