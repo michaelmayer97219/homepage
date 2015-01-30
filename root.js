@@ -121,8 +121,8 @@
     var winWidth = $(window).width()
     var $container = $('#container')
 
-    $container.css('margin-top', pixHeight*3)
-     $container.css('margin-bottom', pixHeight*3)
+   // $container.css('margin-top', pixHeight*3)
+   //  $container.css('margin-bottom', pixHeight*3)
 
 
     var breakpoint1 = 1200
@@ -142,8 +142,8 @@
         $container.css('font-size', '0.7em')
     	reshapeContainer(pixHeight, 10)
     } else if (winWidth < breakpoint4) {
-        $container.css('font-size', '0.6em')
-    	reshapeContainer(pixHeight, 3)
+        $container.css('width', '100%')
+   
     }
   
 
