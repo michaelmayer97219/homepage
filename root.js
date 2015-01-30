@@ -131,13 +131,13 @@
     var breakpoint4 = 400
 
     if (winWidth  > breakpoint1) {
-    	reshapeContainer(pixHeight, 35)
+    	reshapeContainer(pixHeight, 40)
     } else if (winWidth < breakpoint1 && winWidth > breakpoint2) {
         $container.css('font-size', '0.9em')
-    	reshapeContainer(pixHeight, 24)
+    	reshapeContainer(pixHeight, 27)
     } else if (winWidth < breakpoint2 && winWidth > breakpoint3) {
         $container.css('font-size', '0.8em')
-    	reshapeContainer(pixHeight, 17)
+    	reshapeContainer(pixHeight, 20)
     } else if (winWidth < breakpoint3 && winWidth > breakpoint4) {
         $container.css('font-size', '0.7em')
     	reshapeContainer(pixHeight, 10)
