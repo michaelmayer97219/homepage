@@ -143,7 +143,6 @@
     	reshapeContainer(pixHeight, 10)
     } else if (winWidth < breakpoint4) {
         $container.css('width', '100%')
-   
     }
   
 
