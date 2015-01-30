@@ -114,12 +114,15 @@
     	var width = (ww- (leftMargin*2))*pixHeight
     	innerNode.css('margin-left', pHeight*leftMargin)
     	innerNode.css('width', width)
+
+
     }
 
     var winWidth = $(window).width()
+    var $container = $('#container')
 
-    $('#container').css('margin-top', pixHeight*3)
-     $('#container').css('margin-bottom', pixHeight*3)
+    $container.css('margin-top', pixHeight*3)
+     $container.css('margin-bottom', pixHeight*3)
 
 
     var breakpoint1 = 1200
@@ -128,15 +131,19 @@
     var breakpoint4 = 400
 
     if (winWidth  > breakpoint1) {
-    	reshapeContainer(pixHeight, 40)
+    	reshapeContainer(pixHeight, 35)
     } else if (winWidth < breakpoint1 && winWidth > breakpoint2) {
-    	reshapeContainer(pixHeight, 30)
+        $container.css('font-size', '0.9em')
+    	reshapeContainer(pixHeight, 24)
     } else if (winWidth < breakpoint2 && winWidth > breakpoint3) {
-    	reshapeContainer(pixHeight, 20)
+        $container.css('font-size', '0.8em')
+    	reshapeContainer(pixHeight, 17)
     } else if (winWidth < breakpoint3 && winWidth > breakpoint4) {
+        $container.css('font-size', '0.7em')
     	reshapeContainer(pixHeight, 10)
     } else if (winWidth < breakpoint4) {
-    	reshapeContainer(pixHeight, 5)
+        $container.css('font-size', '0.6em')
+    	reshapeContainer(pixHeight, 3)
     }
   
 
