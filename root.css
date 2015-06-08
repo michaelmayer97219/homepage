@@ -14,12 +14,14 @@ body, html {
 	position: absolute;
 	height: initial;
 	background-color: white;
+	border: 5px solid black;
 	width: 50%;
 	margin-left: 25%;
-    opacity: 0.9;
     z-index: 1;
     font-family: 'Slabo 27px', serif;
-    padding-bottom: 7em;
+    padding-bottom: 3em;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 #backBody {
@@ -31,8 +33,9 @@ body, html {
 }
 
 #introBlock {
-	margin-top: 1em;
+	padding: 3em 0em 2em 0em;
 	text-align: center;
+	xborder-bottom: 5px solid black;
 }
 
 #hi {
@@ -48,23 +51,22 @@ body, html {
 }
 
 #bio {
-	margin-top: 0.5em;
+	margin: 1.5em 0em 3em 0em;
 	padding: 0 20%;
 	font-size: 1.2em;
 	font-family: 'Droid Serif', serif;
 }
 
-#conBody {
-
-	padding: 0% 5% 1em 5%;
+.conBody {
+	border-top: 5px solid black;
 }
 
 .headline {
 	text-align: center;
-	font-size: 3em;
-	border-top: 1px dotted black;
-	border-bottom: 1px dotted black;
-	margin: 1.5em 0;
+	font-size: 3.5em;
+	margin: 0.5em 0em 1em 25%;
+	width: 50%;
+	border-bottom: 2px solid #ccc;
 }
 
 .headline i {
@@ -72,38 +74,40 @@ body, html {
 }
 
 .projectContainer {
-width: 100%;
-padding: 2em 0;
-xheight: 2em;
-height: 10em;
-	background-color: rgba(255,255,255,0.95);
+	width: 80%;
+	  margin: 5% 0em 0em 0%;
+  padding: 5% 10%;
+	background-color: #f5f5f5;
+	xcolor: white;
 	position: relative;
 }
 
 .projectContainer img {
-	width: 40%;
-	float: left;
+	width: 80%;
+	margin-left: 10%;
 	background-color: white;
 }
 
 .projectContent {
-	width: 50%;
-	float: right;
+
 }
 
 .projectHead {
-	
-	font-family: 'Slabo 27px', serif;
-	font-size: 2em;
-	xpadding-left: 2em;
+	text-align: center;
+	xfont-family: 'Slabo 27px', serif;
+	font-size: 2.5em;
+  	padding-bottom: 0.5em;
 }
 
 .projectInfo {
 	margin-top: 1em;
 	font-family: 'Droid Serif', serif;
+	width: 80%;
+	margin-left: 10%;
 }
 
 .linkCon {
+	padding-left: 20%;
 	height: 2em;
 	margin: 1em 0;
 		position: relative;
@@ -122,8 +126,8 @@ height: 10em;
 	line-height: 2em;
 	font-size: 1.5em;
 	vertical-align: middle;
-	height: 200%;
-	padding-left: 2em;
+	  height: 180%;
+  padding-left: 0.5em;
 }
 
 .sLink {

@@ -153,17 +153,17 @@ $(document).ready(function() {
 
 	var doit;
 	function resizedw(){
-		location.reload()
+		//location.reload()
 
-		//$('#backBody').remove()
-		//$('body').append('<div id=backBody></div>')
-	   // paintIt(260, 0, $('#backBody'), $('#container'), 600, 1, 1, 1)
+		$('#backBody').remove()
+		$('body').append('<div id=backBody></div>')
+	    paintIt(260, 0, $('#backBody'), $('#container'), 600, 1, 1, 1)
 	}
 	window.onresize = function() {
 	    clearTimeout(doit);
 	    doit = setTimeout(function() {
 	        resizedw();
-	    }, 100);
+	    }, 20);
 	};
 
 });
